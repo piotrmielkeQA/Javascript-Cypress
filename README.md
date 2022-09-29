@@ -2,6 +2,8 @@
 ## Introduction
 This project is a guide to creating automation tests using Javascript with Cypress.  The project includes basic issues such as: locating objects on the page, performing actions on elements. 
 
+To tests using page: [TestPage](http://automationpractice.com/index.php)
+
 ## Technologies:
 - Javascript
 - [Cypress](https://www.cypress.io/)
@@ -25,4 +27,8 @@ npm install
 ```
 npx cypress open 
 
+```
+5. You can run all test from terminal use this command:
+```
+npm run chrome
 ```
