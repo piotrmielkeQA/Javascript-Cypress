@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.179" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-10-02T19:45:39" tests="0" file="cypress/integration/Alerts.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Alerts" timestamp="2022-10-02T19:45:40" tests="2" time="10.473" failures="1">
+    <testcase name="E2E - Alerts Alert" time="0.000" classname="Alert">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; expected &apos;Przykładowa treść alertu&apos; to equal &apos;Testowa&apos;
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="AssertionError"><![CDATA[AssertionError: The following error originated from your application code, not from Cypress.
+
+  > expected 'Przykładowa treść alertu' to equal 'Testowa'
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at $Cy.eval (https://testowanie-oprogramowania.pl/__cypress/tests?p=cypress/integration/Alerts.js:175:24)
+
+      + expected - actual
+
+      -'\'Przykładowa treść alertu\''
+      +'\'Testowa\''
+      ]]></failure>
+    </testcase>
+    <testcase name="E2E - Alerts Alert confirm" time="0.153" classname="Alert confirm">
+    </testcase>
+  </testsuite>
+</testsuites>
